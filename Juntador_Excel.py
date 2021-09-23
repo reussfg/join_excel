@@ -3,7 +3,7 @@ import pandas as pd
 import openpyxl
 
 # Remember to put all the xlsx files into your project root
-path = os.path.abspath('/Users/gabrielreus/PycharmProjects/Juntador_excel/Feito')
+path = os.path.abspath('XLSX path')
 arquivos = os.listdir(path)  # It will locate your archieves here
 df = pd.DataFrame()
 for file in arquivos:
